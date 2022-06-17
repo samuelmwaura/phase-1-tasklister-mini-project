@@ -11,7 +11,15 @@
 
     <form id="create-task-form" action="" method="POST">
       <label for="new-task-description">Task description:</label>
-      <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
+      <input type="text" id="new-task-description" name="new-task-description" placeholder="description"><br>
+      <label for="taskPriority">Task taskPriority</label>
+      <select name="taskPriority" id="taskPriority">
+        <option value="red">Red</option>
+        <option value="yellow">Yellow</option>
+        <option value="green">Green</option>
+      </select><br>
+      <label for="duration">Tak Duration</label>
+      <input type="text" name="duration" id="duration"><br>
       <input type="submit" value="Create New Task">
     </form>
 
